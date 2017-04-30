@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>First Training</title>
-
+  <title>Kenny Vo</title>
   <!-- meta -->
   <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+  <!-- Bootstrap & Font-Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-
-    <header>
-      <h1>Kenny's Personal Page</h1>
-    </header>
-    <nav>
-      <a href='#'>About</a>
-      <a href='#'> Contact</a>
-    </nav>
+  <!-- Set up Google Analytics here  -->
 </head>
-  <body>
-  </body>
-  <footer class='clearfix'>
-    <p class="footer"> This is a Footer </p>
-  </footer>
+<body>
+  <!-- NAVIGATION -->
+  <nav class ="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand navbar-left" style=color: black>Kenny Vo</a>
+      <div class="navbar-header">
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <!-- PROFILE -->
+      <img class="profile-img pull-left" src="assets/imgs/profile-pic2.jpg" width="220" height="220" alt="Profile">
+      <div class="profile-content pull-left">
+        <h1>Kenny Vo</h1>
+        <h2> Full Stack Web Developer</h2>
+        <ul class="social list-inline">
+          <li><a href="https://www.linkedin.com/in/kenny-vo-3aa9b656/">
+            <i class="fa fa-linkedin"></i> </a>LinkedIn</li>
+          <li><a href="https://github.com/kenzovo">
+            <i class="fa fa-github"></i> </a>Github</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="container sections-wrapper">
+    <div class="row">
+      <div class="left-side col-md-8 col-sm-12 col-xs-12">
+        <section class="about section">
+          <div class="section-inner card">
+            <h2>About Me</h2>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec purus ac leo scelerisque rutrum. Nam ac lobortis elit, nec iaculis nunc. Fusce ante nulla, vulputate sed tortor eget, iaculis semper nisl. Sed cursus fermentum lacus eu feugiat. Sed consectetur fermentum mi, in congue turpis auctor eu. Curabitur et dignissim mauris. Maecenas hendrerit dictum nisi at ultrices. Nam hendrerit nibh id purus volutpat, a tempus purus dictum. Aenean semper, dui non ullamcorper posuere, quam justo blandit libero, nec pulvinar tellus sem vitae eros. Ut metus massa, consequat sed diam sit amet, pellentesque mollis nulla. Aliquam euismod nulla eget nulla pellentesque interdum vel et urna. Nulla facilisi. Donec id libero sit amet est mattis facilisis dignissim vel risus. Aliquam ullamcorper ultricies varius. Nullam tincidunt viverra neque, quis blandit nibh porttitor nec.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="right-side col-md-4 col-sm-12 col-cs-12">
+        <aside>
+          <div class="section-inner card">
+            <h2>Contact Me</h2>
+            <div class="contact">
+              <ul>
+                <li>Location: "Austin, TX"
+                <li>Email: "kennyvo91@gmail.com"
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
