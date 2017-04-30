@@ -3,17 +3,32 @@ body {
 	background: #f6f6f6;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Varela Round',Arial,sans-serif;
+}
+
+header .container .profile-content h1 {
+	text-transform: uppercase;
+	font-weight: 350;
+}
 /*Navigation Bar*/
+
+.navbar {
+	text-transform: uppercase;
+}
 .navbar-default {
-	background-color: white;
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Varela Round',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
-
-/*Nav Link Colors*/
-.navbar-default.navbar-nav > li > a {
-	color: black
-}
-
-/*Nav Link Hover Colors*/
 .navbar-default .navbar-nav > li > a:hover {
 	background-color: #EBEBEB
 }
@@ -38,4 +53,11 @@ body {
 
 .pull-left {
 	float: left;
+}
+
+/*Footer*/
+
+.footer {
+	background-color: White;
+
 }
